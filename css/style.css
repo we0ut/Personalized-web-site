@@ -9,6 +9,8 @@ FONT SIZE SYSTEM (px)
 /* 
 MAIN COLOR: #087f5b
 GREY COLOR: #343a40
+CYAN COLOR: #086f7f
+BEIGE COLOR: #7f5b08
 */
 
 body {
@@ -63,6 +65,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  gap: 2.4rem;
 }
 
 .hero-bold {
@@ -163,4 +166,132 @@ body {
 .featured-work-box-text {
   font-size: 2rem;
   color: #cee5de;
+}
+
+/* *************** */
+/* CTA Section */
+/* *************** */
+.section-cta {
+  margin-bottom: 9rem;
+}
+
+.cta {
+  width: 105rem;
+}
+
+.cta-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4.4rem;
+
+  background-color: #217d8c;
+  padding: 4.8rem;
+  border-radius: 9px;
+}
+
+.heading-cta {
+  font-size: 4.4rem;
+  color: #e6f1f2;
+}
+
+.cta-heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.cta-form {
+  font-size: 2.4rem;
+  color: #e6f1f2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+}
+
+.message-box {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  /* width: 100%; */
+}
+.message-input {
+  width: 100%;
+}
+
+.cta-form-input {
+  border-radius: 9px;
+  border: 0;
+  padding: 0.8rem;
+}
+
+.cta-form-input::placeholder {
+  color: hsla(210, 10%, 23%, 0.548);
+}
+
+.cta-form-input:focus {
+  color: #021619;
+}
+
+.cta-form-box:nth-child(1),
+.cta-form-box:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.cta-form-box:nth-child(2) {
+  align-items: end;
+}
+
+#full-name,
+#email {
+  width: 80%;
+}
+.cta-icon {
+  font-size: 4.4rem;
+  color: #e6f1f2;
+}
+
+.cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #e6f1f2;
+  background-color: #043840;
+  transition: all 0.3s;
+  cursor: pointer;
+  gap: 0.8rem;
+  padding: 1.6rem;
+  border: 0;
+  border-radius: 9px;
+}
+
+.cta-btn:hover {
+  transform: scale(0.95);
+}
+
+.cta-text {
+  font-style: italic;
+  font-size: 1.8rem;
+  color: hsla(185, 33%, 93%, 0.582);
+
+  align-self: center;
+  justify-self: center;
+}
+
+/* *************** */
+/* CTA Section */
+/* *************** */
+.footer {
+  padding: 3.2rem;
+  color: #0a0c0d;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section-footer {
+  background-color: #ebebec;
 }
