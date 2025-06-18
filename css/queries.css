@@ -160,11 +160,11 @@ FONT SIZE SYSTEM (px)
   .hero,
   .footer,
   .featured {
-    width: 44rem;
+    width: 40rem;
   }
 
   .featured-work-box {
-    width: 100%;
+    width: 80%;
   }
 
   .hero-img {
@@ -180,7 +180,11 @@ FONT SIZE SYSTEM (px)
     flex-direction: column-reverse;
   }
   .cta {
-    width: 52rem;
+    width: 40rem;
+  }
+
+  .cta-text-box {
+    width: 90%;
   }
   .cta-form {
     row-gap: 4rem;
