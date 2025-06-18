@@ -13,6 +13,9 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="script.js"></script>
     <title>Home</title>
   </head>
   <body>
@@ -29,6 +32,11 @@
           </li>
         </ul>
       </nav>
+
+      <button class="mobile-nav-btn">
+        <ion-icon name="menu-outline" class="nav-btn"></ion-icon>
+        <ion-icon name="close-outline" class="nav-btn"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -52,7 +60,7 @@
           <h2 class="heading-featured">Featured Work</h2>
 
           <div class="featured-work">
-            <div class="featured-work-box">
+            <div class="featured-work-box" id="shortly-box">
               <img
                 class="featured-work-box-img"
                 src="images/shortly.jpg"
@@ -66,7 +74,7 @@
               </div>
             </div>
 
-            <div class="featured-work-box">
+            <div class="featured-work-box" id="ip-box">
               <img
                 class="featured-work-box-img"
                 src="images/IP-address-tracker.jpg"
@@ -80,7 +88,7 @@
               </div>
             </div>
 
-            <div class="featured-work-box">
+            <div class="featured-work-box" id="todo-box">
               <img
                 class="featured-work-box-img"
                 src="images/todo-app.jpg"

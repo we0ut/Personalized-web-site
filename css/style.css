@@ -13,6 +13,22 @@ CYAN COLOR: #086f7f
 BEIGE COLOR: #7f5b08
 */
 
+.mobile-nav-btn {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-btn {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.nav-btn[name="close-outline"] {
+  display: none;
+}
+
 body {
   background-color: #e6f2ef46;
 }
@@ -30,13 +46,14 @@ body {
   background-color: #cee5de;
   margin-bottom: 9rem;
 
+  display: flex;
   position: sticky;
   top: 0;
   z-index: 9999;
 }
 
 .header-nav {
-  padding: 2rem;
+  padding: 1.6rem 2rem;
 }
 
 .header-nav-list {
@@ -56,6 +73,17 @@ body {
   color: #85898c;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+}
+
+.contact-btn {
+  background-color: #033324;
+  padding: 1.2rem;
+  border-radius: 9px;
+  color: #e6f2ef;
+}
+
+.contact-btn:hover {
+  color: #cee5de;
 }
 
 /* *************** */
@@ -185,9 +213,12 @@ body {
 }
 
 .cta-text-box {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 4.4rem;
+
+  box-shadow: 1px 7px 42px rgba(0, 0, 0, 0.253);
 
   background-color: #054c37;
   padding: 4.8rem;

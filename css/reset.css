@@ -28,6 +28,8 @@ ul {
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+
+  overflow-x: hidden;
 }
 
 /* Set core body defaults */
