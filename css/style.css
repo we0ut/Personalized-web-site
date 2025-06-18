@@ -86,12 +86,12 @@ body {
 .img {
   border-radius: 100%;
   border: 5px solid #02261b;
+  transition: all 0.3s;
 }
 
 .img:hover {
   border: 5px solid #84bfad;
   cursor: pointer;
-  transition: all 0.3s;
 }
 
 .heart-icon {

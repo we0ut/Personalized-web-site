@@ -1,0 +1,111 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 90 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+CYAN COLOR: #086f7f
+BEIGE COLOR: #7f5b08
+*/
+
+/* *************** */
+/* Education Section */
+/* *************** */
+.section-education {
+  margin-bottom: 9rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+
+  width: 128rem;
+}
+
+.education-box {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 6.4rem;
+}
+
+.education-text {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  color: #2f343a;
+  /* padding: 2rem; */
+}
+
+.education-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.education-text-box:nth-child(2) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.education-text-box:nth-child(4) {
+  grid-row-start: 3;
+}
+
+.finki-logo {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  justify-self: center;
+}
+
+.nikola-karev--logo {
+  width: 45%;
+  justify-self: center;
+}
+
+.erasmus-plus--logo {
+  width: 75%;
+  align-self: center;
+  justify-self: center;
+}
+.erasmus-plus--logo,
+.nikola-karev--logo,
+.finki-logo {
+  border-radius: 9px;
+  border: 2px solid #b5d9ce;
+}
+
+.heading-education {
+  font-size: 4.4rem;
+  color: #010d09;
+}
+
+.heading-text-box {
+  font-size: 2.4rem;
+  color: #021912;
+}
+
+.heading-time {
+  font-size: 1.4rem;
+  color: #717579;
+}
+
+.education-line {
+  display: block;
+  width: 40rem;
+  height: 1rem;
+  background-color: red;
+
+  left: 29%;
+  top: 20rem;
+  transform: rotate(90deg);
+  position: absolute;
+}
