@@ -31,3 +31,21 @@ BEIGE COLOR: #7f5b08
   font-size: 4.4rem;
   color: #010d09;
 }
+
+.live-show,
+.travel-img {
+  justify-self: center;
+  box-shadow: 1px 7px 42px rgba(0, 0, 0, 0.253);
+  border-radius: 9px;
+  border: 2px solid #b5d9ce;
+}
+
+.live-show {
+  width: 45%;
+}
+
+.travel-img {
+  width: 45%;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}

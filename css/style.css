@@ -132,6 +132,7 @@ body {
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease;
+  box-shadow: 1px 7px 42px rgba(0, 0, 0, 0.493);
   /* align-items: center; */
   /* gap: 1.6rem; */
 }

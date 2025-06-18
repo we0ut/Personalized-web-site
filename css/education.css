@@ -25,7 +25,7 @@ BEIGE COLOR: #7f5b08
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
+  gap: 6.4rem;
 
   width: 128rem;
 }
@@ -81,6 +81,8 @@ BEIGE COLOR: #7f5b08
 .finki-logo {
   border-radius: 9px;
   border: 2px solid #b5d9ce;
+
+  box-shadow: 1px 7px 42px rgba(0, 0, 0, 0.253);
 }
 
 .heading-education {
